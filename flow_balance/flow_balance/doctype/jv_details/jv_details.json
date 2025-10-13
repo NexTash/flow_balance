@@ -1,0 +1,58 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-10-13 19:36:47.998206",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "account",
+  "credit",
+  "debit",
+  "against_employee"
+ ],
+ "fields": [
+  {
+   "fieldname": "account",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Account",
+   "options": "FB Account",
+   "reqd": 1
+  },
+  {
+   "fieldname": "credit",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Credit"
+  },
+  {
+   "fieldname": "debit",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Debit"
+  },
+  {
+   "fieldname": "against_employee",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Against Employee",
+   "options": "FB Employee"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-10-13 19:39:00.383555",
+ "modified_by": "Administrator",
+ "module": "Flow Balance",
+ "name": "JV Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
