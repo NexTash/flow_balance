@@ -7,13 +7,17 @@
  "engine": "InnoDB",
  "field_order": [
   "employee",
+  "employee_name",
   "column_break_rnge",
+  "cts_threshold_date",
+  "cts_threshold_amount",
   "amount"
  ],
  "fields": [
   {
    "fieldname": "employee",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Employee",
    "options": "FB Employee"
   },
@@ -26,13 +30,34 @@
    "fieldtype": "Currency",
    "in_list_view": 1,
    "label": "Amount"
+  },
+  {
+   "fetch_from": "employee.full_name",
+   "fieldname": "employee_name",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "label": "Employee Name"
+  },
+  {
+   "fetch_from": "employee.cts_threshold_amount",
+   "fieldname": "cts_threshold_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "CTS Threshold Amount"
+  },
+  {
+   "fetch_from": "employee.cts_threshold_date",
+   "fieldname": "cts_threshold_date",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "CTS Threshold Date"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-10-13 19:53:51.726247",
+ "modified": "2025-10-13 20:48:38.666100",
  "modified_by": "Administrator",
  "module": "Flow Balance",
  "name": "Distribute to",

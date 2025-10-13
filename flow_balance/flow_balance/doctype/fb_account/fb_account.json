@@ -8,7 +8,7 @@
  "field_order": [
   "title",
   "column_break_iilm",
-  "current_amount"
+  "balance"
  ],
  "fields": [
   {
@@ -22,16 +22,16 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "current_amount",
+   "fieldname": "balance",
    "fieldtype": "Currency",
-   "label": "Current Amount",
+   "label": "Balance",
    "read_only": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-10-13 19:48:11.242305",
+ "modified": "2025-10-13 20:26:28.060466",
  "modified_by": "Administrator",
  "module": "Flow Balance",
  "name": "FB Account",

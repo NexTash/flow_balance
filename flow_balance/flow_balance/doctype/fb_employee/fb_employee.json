@@ -106,7 +106,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-10-13 19:32:59.488749",
+ "modified": "2025-10-13 20:30:55.126558",
  "modified_by": "Administrator",
  "module": "Flow Balance",
  "name": "FB Employee",
@@ -128,7 +128,9 @@
  ],
  "row_format": "Dynamic",
  "rows_threshold_for_grid_search": 20,
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "full_name"
 }

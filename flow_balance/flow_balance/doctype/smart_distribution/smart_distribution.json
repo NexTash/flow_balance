@@ -6,7 +6,7 @@
  "engine": "InnoDB",
  "field_order": [
   "account",
-  "table_hijt"
+  "distribution"
  ],
  "fields": [
   {
@@ -16,8 +16,9 @@
    "options": "FB Account"
   },
   {
-   "fieldname": "table_hijt",
+   "fieldname": "distribution",
    "fieldtype": "Table",
+   "label": "Distribution",
    "options": "Distribute to",
    "read_only": 1
   }
@@ -26,7 +27,7 @@
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2025-10-13 19:55:59.731832",
+ "modified": "2025-10-13 20:37:53.765244",
  "modified_by": "Administrator",
  "module": "Flow Balance",
  "name": "Smart Distribution",
